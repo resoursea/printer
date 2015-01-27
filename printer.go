@@ -1,4 +1,4 @@
-// A Printer package for Router
+// Printer for Resources and Methods from a Resoursea project
 package printer
 
 import (
