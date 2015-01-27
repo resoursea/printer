@@ -14,9 +14,17 @@ Install the Printer package:
 go get github.com/resoursea/printer
 ~~~
 
-Routing all your Resource tree using Resoursea is as easy as `router, err := api.NewRouter(Resource{})`.
+Routing all your Resource tree using Resoursea is as easy as:
 
-To see all te routed Resources and Methods just import this package `import "github.com/resoursea/printer"` and call the method `printer.Router(router)`.
+~~~ go
+router, err := api.NewRouter(Resource{})
+~~~
+
+To print all te routed Resources and Methods:
+
+- Import this package `import "github.com/resoursea/printer"`
+
+- Call the method `printer.Router(router)`
 
 ## Larn More
 
